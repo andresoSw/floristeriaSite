@@ -1,0 +1,4 @@
+/* Override fundation panel css*/
+.panel {
+	background-color : black !important,
+}

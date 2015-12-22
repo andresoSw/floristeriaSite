@@ -9,26 +9,28 @@
 <link rel="stylesheet" href="{% static 'foundation-6/motion-ui-starter/css/motion-ui.css' %}">
 <link rel="stylesheet" href="{% static 'foundation-6/motion-ui-starter/css/normalize.css' %}">
 <link rel="stylesheet" href="{% static 'foundation-6/motion-ui-starter/css/style.css' %}">
+<link rel="stylesheet" href="{% static 'css/floristeriaSiteFrontEnd.css' %}">
 
 </head>
 <body>
  
-<div class="top-bar">
-<div class="top-bar-left">
-<ul class="menu">
-<li class="menu-text">Sitio Web - Floristeria</li>
-<li><a href="#">Enlace1</a></li>
-<li><a href="#">Enlace2</a></li>
-</ul>
-</div>
-<div class="top-bar-right">
-<ul class="menu">
-<li><a href="#">Contacto1</a></li>
-<li><a href="#">Contacto2</a></li>
-<li><a href="#">Contacto3</a></li>
-<li><a href="#">Contacto4</a></li>
-</ul>
-</div>
+<div class="top-bar florsite-theme">
+
+	<div class="top-bar-left">
+	<ul class="menu florsite-theme">
+	<li class="menu-text">Sitio Web - Floristeria</li>
+	<li><a href="#">Enlace1</a></li>
+	<li><a href="#">Enlace2</a></li>
+	</ul>
+	</div>
+
+	<div class="top-bar-right">
+	<ul class="menu florsite-theme">
+	<li><a href="#">Acerca de Nosotros. Quienes Somos?</a></li>
+	<li><a href="#">Contactanos: Tel 999 999 email</a></li>
+	</ul>
+	</div>
+
 </div>
 <hr></hr>
 <div class='large-10 columns row'>
@@ -37,15 +39,15 @@
     <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
     <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
     <li class="is-active orbit-slide">
-      <img class="orbit-image" src="{% static 'img/arreglosFlores/floristeria1.jpg' %}" alt="Space">
+      <img class="orbit-image" src="{% static 'img/arreglosFlores/floristeria4.png' %}" alt="Space">
       <figcaption class="orbit-caption">Flores, flores para decorar</figcaption>
     </li>
     <li class="orbit-slide">
-      <img class="orbit-image" src="{% static 'img/arreglosFlores/floristeria2.jpg' %}" alt="Space">
+      <img class="orbit-image" src="{% static 'img/arreglosFlores/floristeria4.png' %}" alt="Space">
       <figcaption class="orbit-caption">Lets Rocket!</figcaption>
     </li>
     <li class="orbit-slide">
-      <img class="orbit-image" src="{% static 'img/arreglosFlores/floristeria3.jpg' %}" alt="Space">
+      <img class="orbit-image" src="{% static 'img/arreglosFlores/floristeria4.png' %}" alt="Space">
       <figcaption class="orbit-caption">Encapsulating</figcaption>
     </li>
     <li class="orbit-slide">
@@ -65,32 +67,6 @@
 <div class="row column text-center">
 <h2>Pasos para efectuar su Pedido</h2>
 <hr>
-</div>
-<div class="row small-up-2 large-up-4">
-<div class="column">
-<img class="thumbnail" src="http://placehold.it/300x400">
-<h5>Paso 1 </h5>
-<p>Escoger</p>
-<a href="#" class="button expanded">Ver</a>
-</div>
-<div class="column">
-<img class="thumbnail" src="http://placehold.it/300x400">
-<h5>Paso 2</h5>
-<p>Efectuar su pedido en linea</p>
-<a href="#" class="button expanded">Ver</a>
-</div>
-<div class="column">
-<img class="thumbnail" src="http://placehold.it/300x400">
-<h5>Paso 3</h5>
-<p>Recoger con factura</p>
-<a href="#" class="button expanded">Ver</a>
-</div>
-<div class="column">
-<img class="thumbnail" src="http://placehold.it/300x400">
-<h5>Paso 4</h5>
-<p>Comparte tu experiencia</p>
-<a href="#" class="button expanded">Ver</a>
-</div>
 </div>
 <hr>
 <div class="row column">
@@ -234,7 +210,7 @@
 </div>
 </div>
 </div>
-<div class="callout large secondary">
+<div class="panel callout large primary florsite-theme">
 <div class="row">
 <div class="large-4 columns">
 <h5>Footer Contacto</h5>
@@ -251,10 +227,8 @@
 </div>
 <div class="large-3 columns">
 <ul class="menu vertical">
-<li><a href="#">Contacto 5</a></li>
-<li><a href="#">Contacto 6</a></li>
-<li><a href="#">Contacto 7</a></li>
-<li><a href="#">Contacto 8</a></li>
+<li><a href="#">Contactanos</a></li>
+<li><a href="#">email</a></li>
 </ul>
 </div>
 </div>
